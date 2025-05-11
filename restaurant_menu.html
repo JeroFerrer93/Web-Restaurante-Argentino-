@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Argentininan</title>
+    <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/3909/3909430.png">
+    <style>
+        li{
+            display: inline;
+            padding: 0%;
+            margin: 10%;
+        }
+        body{
+            background-color: skyblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main{
+            background-color: azure;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="intro">The Argentininan - The food of the south</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#order-form">Order-Form</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+        <figure>
+            <img id="header-img" src="https://media.istockphoto.com/id/1345321404/es/vector/cultura-y-folclore-argentino.jpg?s=612x612&w=0&k=20&c=1IExRJ2zUUPN6VTTtSfbQPiaxeSU7SwOR8toyCBfDaI=" alt="Restaurante Argentino" width="800" height="400">
+        </figure>
+    </header>
+    <main>
+        <section>
+            <h2 id="menu">Menu</h2>
+            <article>
+                <h3>Choripan</h3>
+                <img src="https://www.grillseeker.com/wp-content/uploads/2022/08/choripan-on-cutting-board-recipe-card.jpg" alt="Choripan" width="450" height="300">
+                <p>Choripán (an acronym for chorizo, sometimes abbreviated as chori, and pan) is a food consisting basically of a grilled chorizo sausage served between two pieces of bread, typical of the gastronomy of Argentina. It is usually prepared with French bread and grilled chorizo. The chorizo is the so-called "criollo" or "parrillero" chorizo, of soft consistency and raw appearance, composed of approximately 70% beef and 30% pork. - <i>USD 8</i></p>
+            </article>
+            <article>
+                <h3>Empanadas</h3>
+                <img src="https://assets.unileversolutions.com/recipes-v2/237001.jpg" alt="Empanadas" width="450" height="300">
+                <p>Argentine empanadas are a traditional dish, a dough wrapper (usually made of flour) filled with various ingredients, such as meat, chicken, vegetables, or cheese, which is then baked or fried. They are a symbol of Argentine cuisine and are enjoyed throughout the country, with regional variations in fillings and preparation. - <i>USD 2</i></p>
+            </article>
+            <article>
+                <h3>Asado</h3>
+                <img src="https://roldanba.com.ar/wp-content/uploads/877589.jpg" alt="Asado" width="450" height="300">
+                <p>The Argentine asado is a traditional barbecue, a culinary and social ritual deeply rooted in Argentine culture, which consists of grilling meat, primarily beef, over hot coals. It's an emblematic dish of Argentine gastronomy that goes beyond food, representing a gathering of family or friends, where grilled meat is enjoyed alongside drinks and company. - <i>USD 20</i></p>
+            </article>
+        </section>
+        <section>
+            <h2 id="order-form">Place your Order</h2>
+            <form action="">
+                <label for="choripan">🔥Choripan (qty):</label>
+                <input type="number" id="choripan" name="choripan" min="0" />
+
+                <label for="empanadas">🥟 Empanadas (qty):</label>
+                <input type="number" id="empanadas" name="empanadas" min="0" />
+
+                <label for="asado">🥩 Asado (qty):</label>
+                <input type="number" id="asado" name="asado" min="0" />
+
+                <p><strong>Select your side:</strong></p>
+                <label><input type="radio" name="side" value="garlic_bread" /> Garlic Bread</label>
+                <label><input type="radio" name="side" value="salad" /> Side Salad</label>
+                <label><input type="radio" name="side" value="none" /> No Side</label>
+                <br><br>
+                <input type="submit" value="Go To Checkout">
+            </form>
+        </section>
+        <hr>
+        <section>
+            <h2 id="about-us">About Us</h2>
+            <p>We are a new restaurant that brings the flavours of our motherland Argentina to you, with passion and love!</p>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#intro">Beginning</a>
+        <p>All the rights are reserved for The Argentininan 2025.</p>
+    </footer>
+</body>
+</html>
